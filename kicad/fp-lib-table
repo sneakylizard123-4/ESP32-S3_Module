@@ -1,0 +1,6 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "IP5306") (type "KiCad") (uri "/home/sneak/KicadProjects/mesh_hand/kicad/importedParts/IP5306") (options "") (descr ""))
+	(lib (name "Connector_JST_SM4") (type "KiCad") (uri "/home/sneak/KicadProjects/Modules/IP5306_Module/kicad/importedParts/Connector_JST_SM4.pretty") (options "") (descr ""))
+	(lib (name "customimages") (type "KiCad") (uri "/home/sneak/KicadProjects/FTDIboard/kicad/customimages") (options "") (descr ""))
+)

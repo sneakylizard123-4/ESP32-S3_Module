@@ -28,10 +28,9 @@ To enter program mode:
 
 ## BOM (Bill of Materials)
 
-<BOM overview and links to production files.>
-
-- BOM: [BOM.csv](path/to/BOM.csv)
-- Pick and place: [CPL.csv](path/to/CPL.csv)
+- LCSC BOM: [LCSC BOM](BOM.csv)
+- Kicad generated BOM: [BOM.csv](kicad/production/bom.csv)
+- Pick and place: [CPL.csv](kicad/production/positions.csv)
 
 ## Production
 

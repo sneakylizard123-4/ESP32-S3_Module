@@ -35,11 +35,6 @@ To enter program mode:
 
 ## Production
 
-<Fabrication details: board house, stackup, special manufacturing settings.>
-
-## Credits
-
-<Thanks and acknowledgements.>
-
-## License
-<License name / badge>
+This board assumes JLCPCB's standard 4 layer
+- HASL Lead Free
+- 1.6mm thick board

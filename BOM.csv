@@ -1,0 +1,23 @@
+Ref,Value,LCSC#,MPN,Manufacturer,Footprint,Qty,Unit Price($),Ext Price($),Supplier Link
+"C1, C11, C15, C17, C2, C4, C6, C9",10uF 25V X5R,C15850,CL21A106KAYNNNE,Samsung,0805,8,0.0871,0.6968,https://www.lcsc.com/product-detail/C15850.html
+"C10, C12, C13, C14, C16, C8",100nF 50V X7R,C1711,CC0805KRX7R9BB104,YAGEO,0805,6,0.0266,0.1596,https://www.lcsc.com/product-detail/C1711.html
+"C3, C5, C7",22uF 25V X5R,C86816,GRM21BR61E226ME44L,muRata,0805,3,0.0698,0.2094,https://www.lcsc.com/product-detail/C86816.html
+"D1, D2, D3, D4, D5, D6, D7",Orange LED 0805,C965813,XL-2012UOC,XINGLIGHT,0805,7,0.0096,0.0672,https://www.lcsc.com/product-detail/C965813.html
+D8,WS2812B,C2761795,WS2812B-B/T,Worldsemi,PLCC4 5050,1,0.0940,0.0940,https://www.lcsc.com/product-detail/C2761795.html
+J1,USB-C Receptacle 16P,C165948,TYPE-C-31-M-12,Korean Hroparts Elec,SMD,1,0.1724,0.1724,https://www.lcsc.com/product-detail/C165948.html
+J2,JST PH 2P 2mm,C131337,B2B-PH-K-S(LF)(SN),JST,Through Hole,1,0.0356,0.0356,https://www.lcsc.com/product-detail/C131337.html
+J3,Pin Header 1x22 2.54mm,C41375941,HC-PZ254-11.5L-1x22PZ,Hong Cheng,Through Hole,1,0.1200,0.1200,https://www.lcsc.com/product-detail/C41375941.html
+J4,Pin Header 1x21 2.54mm,C49569644,2011-1X21G00SB,WingTAT,Through Hole,1,0.1000,0.1000,https://www.lcsc.com/product-detail/C49569644.html
+L1,1uH Shielded Inductor,C5355380,XFL4020-102MEC,Coilcraft,SMD 4x4mm,1,2.5134,2.5134,https://www.lcsc.com/product-detail/C5355380.html
+"R1, R2",5.1k 1% 0805,C27834,0805W8F5101T5E,UNI-ROYAL,0805,2,0.0065,0.0130,https://www.lcsc.com/product-detail/C27834.html
+"R10, R3, R5, R6, R8, R9",10k 1% 0805,C2907219,FRC0805F1002TS,FOJAN,0805,6,0.0035,0.0210,https://www.lcsc.com/product-detail/C2907219.html
+R11,330 1% 0805,C2889518,0805 1% 330 OHM,VO,0805,1,0.0050,0.0050,https://www.lcsc.com/product-detail/C2889518.html
+"R4, R7",2R 1% 0805,C114246,RC0805FR-072RL,YAGEO,0805,2,0.0261,0.0522,https://www.lcsc.com/product-detail/C114246.html
+SW1,Tactile Switch EVQPUD,C388885,EVQPUD02K,PANASONIC,SMD,1,0.2299,0.2299,https://www.lcsc.com/product-detail/C388885.html
+"SW2, SW3",Tactile Switch KMR2,C72443,KMR221GLFS,C&K,SMD,2,0.6515,1.3030,https://www.lcsc.com/product-detail/C72443.html
+U1,USBLC6-2SC6,C7519,USBLC6-2SC6,ST,SOT-23-6,1,0.0896,0.0896,https://www.lcsc.com/product-detail/C7519.html
+U2,IP5306,C181692,IP5306,INJOINIC,ESOP-8,1,0.2989,0.2989,https://www.lcsc.com/product-detail/C181692.html
+U3,TLV75733PDBV,C485517,TLV75733PDBVR,TI,SOT-23-5,1,0.1819,0.1819,https://www.lcsc.com/product-detail/C485517.html
+U4,ESP32-S3-WROOM-1U,C2913202,ESP32-S3-WROOM-1-N8,ESPRESSIF,SMD WROOM,1,3.1300,3.1300,https://www.lcsc.com/product-detail/C2913202.html
+PCB,Bare PCB,,,,,1,1.5000,1.5000,
+Total,,,Components (9.4929) + PCB (1.50) = Total,,,,,10.9929,

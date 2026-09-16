@@ -40,6 +40,8 @@ Full design laid out on main sheet:
 Started PCB to test fit parts, then went back to do more schematic work.
 Did a final pass on the root sheet, net labels andd cleaning
 
+[image](images/schematic/03-power.png)
+
 **Total Time Spent: 3 hours**
 
 # September 13
@@ -55,6 +57,8 @@ Copied IP5306 section from existing IP5306 projects
 
 fixed footprints
 
+[image](image/schematic/04-esp32.png)
+
 ## Started PCB layout
 
 Rough positioning on the board
@@ -68,6 +72,8 @@ rounded pcb edges
 ground zone fill
 generated production output
 
+[image](image/pcb/editor.png)
+
 ## Packaging
 
 generated step model
@@ -77,5 +83,8 @@ made readme
 made journal
 
 Still need to work on BOM
+
+[image](images/renders/pcb-top.png)
+[image](images/renders/pcb-bottom.png)
 
 **Total Time Spent: 4 hours**

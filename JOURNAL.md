@@ -15,7 +15,7 @@ I wanted a quick and easy way to prototype my projects and all of my other esp32
 
 Placed first components like USB-C and the main ESP32 MCU
 
-[image](images/schematic/01-root.png)
+![image](images/schematic/01-root.png)
 
 **Total Time Spent: 2 hours**
 
@@ -23,7 +23,7 @@ Placed first components like USB-C and the main ESP32 MCU
 
 More work done on schematic, like the 3.3v regulator and capacitors/resistors
 
-[image](images/schematic/02-usb.png)
+![image](images/schematic/02-usb.png)
 
 **Total Time Spent: 2 hour**
 
@@ -40,7 +40,7 @@ Full design laid out on main sheet:
 Started PCB to test fit parts, then went back to do more schematic work.
 Did a final pass on the root sheet, net labels andd cleaning
 
-[image](images/schematic/03-power.png)
+![image](images/schematic/03-power.png)
 
 **Total Time Spent: 3 hours**
 
@@ -57,7 +57,7 @@ Copied IP5306 section from existing IP5306 projects
 
 fixed footprints
 
-[image](image/schematic/04-esp32.png)
+![image](image/schematic/04-esp32.png)
 
 ## Started PCB layout
 
@@ -72,7 +72,7 @@ rounded pcb edges
 ground zone fill
 generated production output
 
-[image](image/pcb/editor.png)
+![image](image/pcb/editor.png)
 
 ## Packaging
 
@@ -84,7 +84,7 @@ made journal
 
 Still need to work on BOM
 
-[image](images/renders/pcb-top.png)
-[image](images/renders/pcb-bottom.png)
+![image](images/renders/pcb-top.png)
+![image](images/renders/pcb-bottom.png)
 
 **Total Time Spent: 4 hours**

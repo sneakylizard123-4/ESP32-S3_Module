@@ -57,7 +57,7 @@ Copied IP5306 section from existing IP5306 projects
 
 fixed footprints
 
-![image](image/schematic/04-esp32.png)
+![image](images/schematic/04-esp32.png)
 
 ## Started PCB layout
 
@@ -72,7 +72,7 @@ rounded pcb edges
 ground zone fill
 generated production output
 
-![image](image/pcb/editor.png)
+![image](images/pcb/editor.png)
 
 ## Packaging
 

@@ -11,7 +11,7 @@ A Feather-like ESP32-S3 Module with IP5306 Battery charging and a built in Neopi
 
 The Module is a 4 layer pcb with a dedicated ground inner layer
 
-![PCB 3D / layout image](path/to/image.png)
+![PCB 3D / layout image](images/pcb/editor.png)
 
 It is built off the ESP32-S3 series MCU to support WiFi/Bluetooth/Zigbee
 It has built in USB ESD protection.

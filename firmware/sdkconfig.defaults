@@ -1,0 +1,7 @@
+# HackRF protocol test - ESP32-S3 USB host configuration
+
+# Keep debug output visible over UART
+CONFIG_LOG_DEFAULT_LEVEL_INFO=y
+
+# USB-OTG as host. The UART console on GPIO43/44 is left as-is (USB Serial
+# JTAG console would collide with the USB-OTG pins 19/20).

@@ -1,0 +1,3 @@
+# Esp-IDF component for the ESP32-S3 env only.
+# The trinket5 (Arduino/AVR) env uses build_src_filter to select src/main.cpp.
+idf_component_register(SRCS "hackrf_protocol_test.c")

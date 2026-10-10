@@ -1,0 +1,10 @@
+# KiCad local version history (accidental nested repo)
+kicad/.history/
+
+# PlatformIO build artifacts
+.pio/
+firmware/.pio/
+
+# OS cruft
+.DS_Store
+Thumbs.db

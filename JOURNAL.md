@@ -88,3 +88,96 @@ Still need to work on BOM
 ![image](images/renders/pcb-bottom.png)
 
 **Total Time Spent: 4 hours**
+
+# October 5: Parts Arrived
+
+## What I did:
+
+- Parts arrived!  (PCBs and components)
+- Checked every part off against the BOM before touching anything
+
+## Why:
+
+- Wanted to catch a missing or wrong part before starting, so a bad line would not stall assembly halfway through
+
+## Screenshots:
+
+![image](proof/V1/image/parts_arrived.jpg)
+
+**Total time spent: 1 hour**
+
+# October 6-7: Assembly and First Power-Up
+
+## What I did:
+
+- Assembled the board: SMD parts first, then the through-hole connectors by hand
+- First power-up over USB-C and the ESP32-S3 booted
+- Tested charging - battery charges and board runs when usb-c connected
+- Tested discharging - the board runs fine with battery connected, no usb
+
+## Why:
+
+- Wanted to prove the power path first
+- all power runs off 5V line
+
+## Screenshots:
+
+![image](proof/V1/image/assembled_charging.jpg)
+
+**Total time spent: 4 hours**
+
+# October 8: Testing at School
+
+## What I did:
+
+- Took the board to school and ran it off the battery with the Key LED in torch mode
+
+## Why:
+
+- Wanted to check it worked away from the bench, on battery only with no USB attached
+- School finished before battery drained even 10% (started at 100%, finished around 85%)
+
+## Screenshots:
+
+![image](proof/V1/image/at_school_torch_mode.jpg)
+
+**Total time spent: 1 hour**
+
+# October 10: NeoPixel Demo
+
+## What I did:
+
+- Crimped a connector for the battery
+- Got the NeoPixel rainbow running and recorded the demo video
+
+## Why:
+
+- using a connector instead of soldered battery so i can use the battery for other projects
+
+## Screenshots:
+
+![image](proof/V1/image/crimped_connector.jpg)
+![image](proof/V1/image/red_light.jpg)
+
+**Total time spent: 2 hours**
+
+# October 11: Battery Connector and Power Bank
+
+## What I did:
+
+- Soldered the JST-PH connector onto the board
+- Re-tested the NeoPixel
+- Ran the board from a power bank to check the boost
+
+## Why:
+
+- The onboard JST-PH is the permanent battery connector, so I wanted it soldered down and re-verified before trusting it
+- I can now disconnect the battery from the board
+
+## Screenshots:
+
+![image](proof/V1/image/soldered_jst_ph.jpg)
+![image](proof/V1/image/red_light_2.jpg)
+![image](proof/V1/image/powered_using_power_bank.jpg)
+
+**Total time spent: 2 hours**

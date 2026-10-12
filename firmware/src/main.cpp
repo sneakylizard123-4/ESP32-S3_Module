@@ -229,13 +229,14 @@ static void testBleScan() {
   scan->setInterval(100);
   scan->setWindow(99);
   Serial.println(F("  scanning for 5 s..."));
-  NimBLEScanResults results = scan->start(5, false);
+  NimBLEScanResults results = scan->getResults(5, false);
   int n = results.getCount();
   Serial.printf("  %d BLE device(s) found:\n", n);
   for (int i = 0; i < n; i++) {
-    NimBLEAdvertisedDevice d = results.getDevice(i);
-    Serial.printf("   %-18s  %4d dBm  %s\n", d.getAddress().toString().c_str(),
-                  d.getRSSI(), d.haveName() ? d.getName().c_str() : "(no name)");
+    // NimBLE 2.x returns pointers from getDevice()
+    const NimBLEAdvertisedDevice *d = results.getDevice(i);
+    Serial.printf("   %-18s  %4d dBm  %s\n", d->getAddress().toString().c_str(),
+                  d->getRSSI(), d->haveName() ? d->getName().c_str() : "(no name)");
   }
   scan->clearResults();
   NimBLEDevice::deinit(true);

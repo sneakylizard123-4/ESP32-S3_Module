@@ -6,6 +6,8 @@ This is a small, self-contained development board built around the ESP32-S3-WROO
 
 **Build status:** assembled and working. USB, charging, the NeoPixel, and the user LED have all been verified on the physical board. See [proof/V1](proof/V1/PROOF.md) for build photos and test results.
 
+![Assembled ESP32-S3 Module charging over USB-C](proof/V1/image/assembled_charging.jpg)
+
 ![ESP32-S3 Module PCB render](images/renders/pcb-top.png)
 
 ## Custom Features
@@ -54,9 +56,24 @@ The board is a 4-layer PCB measuring 35.70 x 79.00 mm, with 1.6mm thickness and 
 
 Schematic and PCB sources live in [kicad/](kicad/). Fabrication outputs (Gerbers, drill, BOM, pick-and-place) are in [kicad/production/](kicad/production/), and the STEP model is in [cad/](cad/).
 
+## Build
+
+The board was assembled by hand: parts laid out and checked, the USB-C and power sections soldered first, then the headers and the JST-PH battery connector. After that came the power-on checks over USB-C and a power bank.
+
+| | |
+|---|---|
+| ![Parts laid out before assembly](proof/V1/image/parts_arrived.jpg) | ![JST-PH connector soldered to the board](proof/V1/image/soldered_jst_ph.jpg) |
+| ![Battery connector crimped](proof/V1/image/crimped_connector.jpg) | ![Board running from a power bank](proof/V1/image/powered_using_power_bank.jpg) |
+
+![NeoPixel and status LEDs lit in torch mode](proof/V1/image/at_school_torch_mode.jpg)
+
+The NeoPixel and status LEDs running the self-test: [video/neopixel.mp4](proof/V1/video/neopixel.mp4).
+
+More build and test detail: [proof/V1/PROOF.md](proof/V1/PROOF.md).
+
 ## Firmware
 
-The demo firmware in [firmware/](firmware/) cycles the NeoPixel through a rainbow and pulses the orange user LED as a heartbeat. It is a PlatformIO project using the Arduino framework and the Adafruit NeoPixel library.
+The firmware in [firmware/](firmware/) is an interactive self-test over USB CDC. It reports system info and power status, drives the NeoPixel and user LED, reads the BOOT button, runs a GPIO loopback check, and scans for WiFi and BLE networks. It is a PlatformIO project using the Arduino framework, the Adafruit NeoPixel library, and NimBLE-Arduino.
 
 ```bash
 cd firmware
@@ -178,7 +195,7 @@ The board is designed for JLCPCB's standard 4-layer process:
 
 ## Known Issues
 
-- WiFi, Bluetooth, and Zigbee have not been exercised yet. The shipped firmware is LED-only, so the radio is untested on this board.
+- WiFi, Bluetooth, and Zigbee have not been exercised yet. The self-test includes WiFi and BLE scan menus, but the radio results have not been confirmed on this board.
 - The module uses a U.FL connector instead of an onboard antenna, so an external 2.4 GHz antenna is required for radio range.
 - The current layout has DRC issues that should be cleaned up in v2: 2 shorting-item errors and 6 clearance errors around the ESP32 module footprint, plus 3 library footprint mismatch warnings. These are flagged in the committed PCB and did not stop the board from working, but they are not intentional.
 - USB-C CC lines are 5.1k sink resistors, so the board draws power but does not negotiate anything above the default USB current.
